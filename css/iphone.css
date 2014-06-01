@@ -1,0 +1,228 @@
+.main-wrapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: helvetica, arial, sans-serif;
+}
+.main-header {
+    background-color: #ba2222;
+    height: 60px;
+    width: 100%;
+    border-bottom: 5px solid black;
+    z-index:1;
+    margin-top: -6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1#page-title {
+    font-family: "arial black", helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    width:90%;
+    margin:auto; 
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 3px 10px black;
+}
+
+#cartoon {
+    display: block;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    position:relative;
+    z-index: -1;
+    margin-bottom: 50px; 
+    margin-top: 50px; 
+}
+
+#cartoon img {
+    max-width:100%;
+    max-height:100%;
+}
+.stripe-button {
+    background-color: #ba2222;
+    height: 60px;
+    text-align: center;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+.sampleBookButton  {
+    width: 100%;;
+    display:block;
+    margin:auto;
+    padding:4px;
+    font-size: 15px;
+    background-color:white;
+    color:black;
+    box-shadow: 1px 5px 10px black;
+    border-radius:2px;
+    margin-top: 12px;
+}
+
+.sampleBookButton:hover {
+    background:radial-gradient(white 10%, #c2c2d8);   
+}
+#book-reviews {
+    margin-top: 20px;
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 0px;
+}
+ul#book-reviews {
+    display: inline-block;
+    margin-left:5%;
+    font-size: 12px;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 50px;
+ }
+
+ .section-title {
+    width: 95%;
+     margin:auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+img.stars {
+    display: block;
+}
+#bookCover {
+    display:block;
+    width: 100%;
+    margin:auto;
+
+}
+
+
+.transition-bar {
+ height:10px;
+    background-color:red;
+    background:linear-gradient(#ba2222,white); 
+    margin-top:30px;
+}
+
+
+
+#video-holder {
+   
+}
+
+#video-left {
+    display:none;
+    margin-top:50px;
+    width:39%;
+    height:auto;
+    vertical-align: top;
+}
+
+#video-header {
+    font-size: 12px; 
+    width: 70%;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+
+#video-left p {
+    diplay:inline-block;
+    margin:auto;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+#video-left h2 {
+    margin-top: 80px;
+
+}
+
+#video-left ul {
+
+}
+
+li .video {
+    font-size: 18px;
+
+
+}
+
+iframe {
+    width:100%;
+    height: 300px; 
+    margin-bottom: 25px;
+    margin-top: 20px; 
+
+}
+
+section#author {
+    position:relative;
+    height:820px;
+}
+
+#authorphoto {
+    width: 80px; 
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+#authorbio {
+    display:block;
+    font-size: 12px;
+    width: 90%;
+    margin:auto;
+    margin-top: 10px; 
+    font-family: georgia, times, serif;
+    line-height: 1.7;
+    margin-bottom:30px;
+}
+
+#right-email-form {
+    width: 90%;
+    margin:auto;
+    display: block;
+    font-size: 12px;
+    line-height: 1.7;
+    font-family: georgia, times, serif;
+}
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+textarea {
+ float:left;
+    clear:both;
+}
+
+#form-button {
+    float:left;
+    clear:left;
+    width: 50%;
+    margin-top: 10px;
+    padding: 5px;
+  
+}
+
+footer {
+    width:100%;
+    border-top: solid 5px black;
+    height:15px;
+    font-family: "arial black", sans-serif;
+    font-size: 10px;
+    background-color:#ba2222;
+    position:absolute;
+    bottom:0px;
+    text-align:center;
+    padding-top:0px;
+    
+    
+}
+

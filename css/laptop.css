@@ -1,0 +1,303 @@
+.main-wrapper {
+    width: 100%;
+    min-height:100%;
+    margin: auto;
+    font-family: helvetica, arial, sans-serif;
+   
+
+}
+.main-header {
+    background-color: rgb(44, 116, 155);
+    height: 80px;
+    width: 100%;
+    min-width:1140px;
+    border-bottom: 5px solid black;
+    position: fixed;
+    top: 0px;
+    z-index:6;
+}
+
+#body-wrapper {
+    background-color:rgba(3, 3, 3, 0.79);
+    width:1140px;
+    min-height:3000px;
+    margin-top:50px;
+}
+
+#nav-button {
+
+    display:inline-block;
+    width: 200px;
+    padding: 2px 2px;
+    border-radius:3px;
+    background-color:white;
+    border: solid 1px black;
+    box-shadow:1px 1px 10px black;
+    text-align:center;
+    font-family:helvetica; sans-serif;
+    color:black;
+    margin-left:5%;
+
+}
+
+#nav-button:hover{
+    background:radial-gradient(white 10%, #e2d9d9);
+    
+}
+
+#nav-button:active{
+    box-shadow:1px 1px 20px #8a858e;
+}
+
+#fixed-image-header {
+    display:block;
+    width:100%;
+    height:800px;
+    background:url(../img/person-resources.jpg);
+    position:fixed;
+    top:0px;
+    left:0;
+    background-repeat:no-repeat;
+    background-size: contain;
+    z-index:-2;  
+
+}
+
+
+
+
+
+
+h2 {
+    color:white;
+    font-size:70px;
+    margin-left:5%;
+    margin-top:770px;
+    padding-top:15px;
+}
+
+
+a {
+    text-decoration: none;
+}
+h1#page-title {
+    display:inline-block;
+    font-family: "arial black", helvetica, sans-serif;
+    text-align:left; 
+    margin-left: 5%; 
+    font-size: 40px;
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 3px 10px black;
+}
+
+#cartoon img {
+   
+    height: 100%;
+    border-radius:100px;
+    display: block;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 5;
+    border-radius:px;
+}
+
+
+.example-activities {
+    display:inline-block;
+    width:400px;
+    margin-left:600px;
+    position:relative;
+}
+
+.stripe-button {
+    background-color: rgb(44, 116, 155);
+    height: 60px;
+    text-align: center;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+.sampleBookButton {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 5px 10px black;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.sampleBookButton:hover {
+    background: radial-gradient(white 10%, #c2c2d8);
+}
+#book-reviews {
+    color:white;
+    font-size:25px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 70px;
+}
+#book-reviews li {
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 16px;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 40px;
+}
+.section-title {
+    width: 100%;
+    color:white;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left:5%;
+
+}
+img.stars {
+    display: block;
+}
+#bookCover {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: 10%;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+.transition-bar {
+    height: 20px;
+    background-color: red;
+    background: linear-gradient(rgb(44, 116, 155), white);
+}
+#video-holder {
+    width: 550px;
+    height: 315px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+#video-left {
+    display: inline-block;
+    margin-top: 50px;
+    width: 39%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    vertical-align: top;
+    font-size:40px;
+    color:white;
+}
+#video-header {
+    font-size: 28px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+#video-left p {
+    display: inline-block;
+    margin: auto;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+#video-left h2 {
+    margin-top: 80px;
+    font-size:28px;
+    margin-left:5%;
+}
+#video-left ul li {
+    font-size: 25px;
+}
+
+
+iframe {
+    width: 500px;
+    height: 360px;
+    margin-bottom: 50px;
+}
+
+
+section#author {
+    position: relative;
+    height: 700px;
+}
+#authorphoto {
+    margin-right: 20px;
+    border-radius: 180px;
+    float: left;
+    width:80px;
+ 
+}
+#authorbio {
+    font-size: 18px;
+    width: 40%;
+    max-width: 700px;
+    margin-left: 5%;
+    float: left;
+    font-family: georgia, times, serif;
+    line-height: 1.7;
+    margin-right: 8%;
+    margin-bottom: 0px;
+    color:white;
+}
+#right-email-form {
+    width: 40%;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: georgia, times, serif;
+    color:white;
+}
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+}
+#form-button {
+    width: 250px;
+    margin-top: 10px;
+    padding: 5px;
+}
+footer {
+    width: 100%;
+    border-top: solid 5px black;
+    height: 50px;
+    font-family: "arial black", sans-serif;
+    font-size: 16px;
+    background-color: rgb(44, 116, 155);
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.try-the-book { 
+    display:block;
+    margin:auto;
+    color:white;
+    text-align:center;
+    background-color:black;
+    font-size:20px;
+    margin-bottom:25px;
+    padding:10px;
+    
+    
+    
+}
+
+#practice {
+    color:white;
+    font-size:100px;
+    margin-left:5%;
+    position:relative;
+    bottom:300px;
+}
